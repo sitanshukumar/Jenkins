@@ -1,0 +1,7 @@
+# create a  free style project-->Go Build Environment-->Build-->Execute shell
+
+wget --user=admin --password=admin http://35.184.135.42:8081/repository/maven-snapshots/aws-techguide/spring-webapp/1.0.0-SNAPSHOT/spring-webapp-1.0.0.war
+
+mv spring-webapp-1.0.0.war dev.war
+
+# Goto-->AddBuildSteps-->deploywar EAR or WAR to container -->
